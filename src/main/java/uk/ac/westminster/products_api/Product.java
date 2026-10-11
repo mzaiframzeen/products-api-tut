@@ -12,6 +12,7 @@ public class Product {
         }
 
         public Long getId() {return id;}
+    // Verified in Tutorial 2: without this getter, Jackson omits "name" from the JSON
         public String getName() {return name;}
         public double getPrice() {return price;}
 
