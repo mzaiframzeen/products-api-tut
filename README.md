@@ -7,6 +7,7 @@
 - **Tutorial 1:** Spring Boot starter project, Swagger UI, `Person` email field, `/goodbye` endpoint
 - **Tutorial 2:** `Product`, `Customer` and `Address` classes with private fields and getters, UML diagrams in `docs/uml`
 - **Tutorial 3:** `ProductService` with a `List<Product>`, CRUD endpoints (`GET`, `POST`, `DELETE`), name search, and a UML diagram showing the controller-to-service dependency
+- **Tutorial 4:** Inheritance: `DigitalProduct` and `PhysicalProduct` extend `Product` using `super(...)`, both stored in one `List<Product>`, with a UML hierarchy diagram (`docs/uml/product-hierarchy.md`)
 
 ## Run it
 
