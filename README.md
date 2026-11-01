@@ -8,6 +8,7 @@
 - **Tutorial 2:** `Product`, `Customer` and `Address` classes with private fields and getters, UML diagrams in `docs/uml`
 - **Tutorial 3:** `ProductService` with a `List<Product>`, CRUD endpoints (`GET`, `POST`, `DELETE`), name search, and a UML diagram showing the controller-to-service dependency
 - **Tutorial 4:** Inheritance: `DigitalProduct` and `PhysicalProduct` extend `Product` using `super(...)`, both stored in one `List<Product>`, with a UML hierarchy diagram (`docs/uml/product-hierarchy.md`)
+- **Tutorial 5:** Polymorphism and abstraction: abstract `Product` with an abstract `getSummary()` overridden in both subclasses, a `Discountable` interface implemented with different rules, a `/products/summaries` endpoint, and an updated UML diagram
 
 ## Run it
 
